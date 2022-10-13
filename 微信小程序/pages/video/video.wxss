@@ -1,0 +1,31 @@
+.videocontainer .header{
+    display: flex;
+    padding: 10rpx;
+}
+.videocontainer .header image{
+    width: 60rpx;
+    height: 60rpx;
+}
+.videocontainer .header .search{
+    border: 1rpx solid #eee;
+    flex: 1;
+    margin: 0 40rpx;
+    text-align: center;
+    font-size: 26rpx;
+    line-height: 60rpx;
+    color: #dd4433;
+}
+/* 导航区 */
+.navScroll{
+    display: flex;
+    white-space: nowrap;
+}
+.navScroll .navItem{
+    font-size: 28rpx;
+    padding: 0 30rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+.navItem .active {
+    border-bottom: 1rpx solid #d43c33;
+  }
